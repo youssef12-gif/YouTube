@@ -1,0 +1,42 @@
+     .the-body {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 15px;
+        row-gap: 25px;
+        border:none
+      }
+
+
+      .video {
+        width: 100%;
+      }
+
+      .video-image {
+        width: 100%;
+      }
+
+      .info {
+        display: grid;
+        grid-template-columns: 42px 1fr;
+      }
+
+      .profile-image {
+        width: 36px;
+        border-radius: 50px;
+      }
+
+      .description {
+        display: block;
+        width: 230px;
+        line-height: 20px;
+        margin-bottom: 7px;
+      }
+
+      .channel {
+        margin-bottom: 10px;
+        color: rgb(195, 188, 188);
+      }
+
+      .stat {
+        color: rgb(195, 188, 188);
+      }
